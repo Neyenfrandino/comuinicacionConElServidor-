@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    font-family: cursive;
+}
+
+.tabla-Datos {
+    border-collapse: collapse; 
+    width: 50%; 
+    border: 1px solid #dddddd; 
+    margin-left: 25%;
+  }
+  
+  .tabla-Datos th,
+  .tabla-Datos td {
+    border: 1px solid #dddddd; 
+    padding: 8px; 
+    text-align: left; 
+  }
+
+  .tabla-Datos th,
+  .tabla-Datos td:hover {
+    background-color: #aaa;
+    cursor: pointer;
+  }
+
+.tabla-Datos th {
+    background-color: darkmagenta;
+  }
+.tabla-Datos th:hover{
+    background-color: #aaa;
+}
+.tabla-Datos tr:nth-child(even){
+    background-color: #eee;
+}
+
+.fila{
+  display: none;
+}
+
+.fila-oculta{
+  display: none;
+}
+
+.creraElemento{
+  display: none;
+}
+
+.crear-elemento-input-visible{
+  display: block;
+}
+
+.elementoAModificar{
+  display: none;
+}
+
+.elementoAModificar-Visible{
+  display: block;
+}

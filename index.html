@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Administracion de Productos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Administracion de Productos</h2>
+    <div id="div"></div>
+
+    <button id="create" class="create">Crear</button>
+    <div class="creraElemento" id="creraElemento">
+        <input type="text" id="inputMarca" placeholder="Marca">
+        <input type="text" id="inputModelo" placeholder="Modelo">
+        <input type="text" id="inputcolor" placeholder="Color">
+        <input type="text" id="inputAmacelamieto" placeholder="Almacenamiento">
+        <input type="text" id="inputProcesador" placeholder="Procesador">
+    </div>
+    
+    <button id="read" class="read">Leer</button>
+
+    <button id="Update" class="Update">Actualizar</button>
+    <div class="elementoAModificar" id="elementoAModificar">
+        <input type="number" id="idElemento" placeholder="Ingrese el Id del elemento a modificar">
+        <input type="text" id="elementoMarca" placeholder="Marca">
+        <input type="text" id="elementoModelo" placeholder="Modelo">
+        <input type="text" id="elementoColor" placeholder="Color">
+        <input type="text" id="elementoAlmacenamiento" placeholder="Almacenamiento">
+        <input type="text" id="elementoProcesador" placeholder="Procesador">
+    </div>
+    <button id="delete" class="delete">Eliminar</button>
+    <input type="number" name="" id="deleteId">
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="jScript.js"></script>
+</body>
+</html>
